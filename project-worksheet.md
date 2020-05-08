@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [Backend github repo link]()
-- [Frontend github repo link]()
+- [Backend github repo link](https://github.com/bcantello/kidtivity-backend)
+- [Frontend github repo link](https://github.com/bcantello/kidtivity)
 - [Deployment link]()
 
 ## Project Description
