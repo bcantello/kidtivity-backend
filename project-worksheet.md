@@ -19,7 +19,7 @@ Most of the data will be stored and accessed from a rest api that I will build. 
 
 
 - [Wireframes](Images/wireframes.JPG)
-- [React architecture]()
+- [React architecture](Images/User%20-%20React%20Architecture.jpg)
 
 
 ### MVP/PostMVP
