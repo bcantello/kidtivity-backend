@@ -18,7 +18,7 @@ Most of the data will be stored and accessed from a rest api that I will build. 
 ## Wireframes
 
 
-- [Wireframes]()
+- [Wireframes](Images/wireframes.JPG)
 - [React architecture]()
 
 
