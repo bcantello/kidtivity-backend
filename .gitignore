@@ -78,7 +78,7 @@ celerybeat-schedule.*
 
 # Environments
 myenv
-kidtivity/staticfiles/.env
+.env
 .venv
 env/
 venv/
