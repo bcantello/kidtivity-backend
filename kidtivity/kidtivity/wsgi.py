@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'kidtivity.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'kidtivity.settings.local')
 
 project_folder = os.path.expanduser('../kidtivity-backend')
 load_dotenv(os.path.join(project_folder, '.env'))
