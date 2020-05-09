@@ -97,11 +97,11 @@ Most of the data will be stored and accessed from a rest api that I will build. 
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create User app | H | 2hr |  |  |
-| Create Authentication app | H | 2hr |  |  |
+| Create Api app | H | 2hr |  |  |
+| Create Authentication app | H | 2hr |  | 1.5hrs |
 | Create Activities app | H | 3hr |  |  |
-| Testing | H | 4hrs |  |  |
-| Deployment | H | 2hrs |  |  |
+| Testing | H | 4hrs |  | 1hr |
+| Deployment | H | 2hrs |  | 5hrs |
 | Total | H | 13hrs |  |  |
 
 ## Additional Libraries
