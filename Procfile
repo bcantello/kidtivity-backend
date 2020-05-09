@@ -1,1 +1,1 @@
-web: gunicorn nutrition.wsgi --log-file -
+web: gunicorn kidtivity.wsgi --log-file -
