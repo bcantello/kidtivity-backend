@@ -18,6 +18,6 @@ class ActivitySerializer(serializers.ModelSerializer):
             'body',
             'image',
             'created_at',
-            'updates_at',
+            'updated_at',
             'is_public',
         )
