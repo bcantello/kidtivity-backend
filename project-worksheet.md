@@ -80,10 +80,10 @@ Most of the data will be stored and accessed from a rest api that I will build. 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | App | H | 5hrs |  |  |
-| Main | H | 1hrs |  |  |
-| Home | H | 5hrs |  |  |
-| Create Account | M | 4hrs |  |  |
-| Login | H | 4hrs |  |  |
+| Main | H | 1hrs | 30min |  |
+| Home | H | 5hrs | 1.5hrs |  |
+| Create Account | M | 4hrs | 30min |  |
+| Login | H | 4hrs | 30min |  |
 | Activity | H | 5hrs |  |  |
 | Header | M | 1hrs |  |  |
 | Menu | M | 3hrs |  |  |
@@ -91,21 +91,20 @@ Most of the data will be stored and accessed from a rest api that I will build. 
 | CSS | H | 8hrs |  |  |
 | Testing | H | 2hrs |  |  |
 | Deployment | H | 1hrs |  |  |
-| Total | - | 40hrs |  |  |
+| Total | - | 40hrs | 3hrs |  |
 
 ### Back end
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create Api app | H | 2hr |  |  |
+| Create Activities app | H | 2hr | 8hrs |  |
 | Create Authentication app | H | 2hr |  | 1.5hrs |
-| Create Activities app | H | 3hr |  |  |
-| Testing | H | 4hrs |  | 1hr |
-| Deployment | H | 2hrs |  | 5hrs |
-| Total | H | 13hrs |  |  |
+| Testing | H | 4hrs | 2hrs |  |
+| Deployment | H | 2hrs | 6hrs |  |
+| Total | H | 10hrs | 18hrs |  |
 
 ## Additional Libraries
- Axios, Google Fonts, react-burger-menu
+ Axios, Google Fonts, Bootstrap
 
 ## Code Snippet
 
