@@ -21,8 +21,6 @@ class Activity(models.Model):
         ('Fourth-Grade', 'Fourth-Grade'),
         ('Fifth-Grade', 'Fifth-Grade'),
         ('Sixth-Grade', 'Sixth-Grade'),
-        ('Middle-School', 'Middle-School'),
-        ('High-School', 'High-School'),
     )
     title = models.CharField(max_length=100)
     owner = models.ForeignKey(User, on_delete=models.DO_NOTHING)
