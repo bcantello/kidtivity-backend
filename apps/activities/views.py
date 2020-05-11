@@ -35,26 +35,18 @@ class ActivityViewSet(viewsets.ModelViewSet):
         serializer.save(owner=self.request.user)
 
 
-class PublicActivities(viewsets.ModelViewSet):
+class PublicActivities(generics.ListAPIView):
     permission_classes = (AllowAny,)
 
     def get_queryset(self):
         queryset = Activity.objects.all().filter(is_public=True)
         return queryset
 
-    @classmethod
-    def get_extra_actions(cls):
-        return []
-
     serializer_class = ActivitySerializer
 
 
-class PublicActivitiesDetail(viewsets.ModelViewSet):
+class PublicActivitiesDetail(generics.RetrieveAPIView):
     permission_classes = (AllowAny,)
-
-    @classmethod
-    def get_extra_actions(cls):
-        return []
 
     def get_queryset(self):
         queryset = Activity.objects.all().filter(is_public=True)

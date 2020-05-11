@@ -4,11 +4,10 @@ from .views import ActivityViewSet, PublicActivities, PublicActivitiesDetail
 
 router = DefaultRouter()
 router.register('activities', ActivityViewSet, basename='activities')
-router.register('public-activities', PublicActivitiesDetail, basename='public-activities')
 
 custom_urlpatterns = [
-    url(r'public-activities/$', PublicActivities.as_view({'get': 'list'}), name='public-activities'),
-    url(r'public-activities/(?P<pk>\d+)/$', PublicActivitiesDetail.as_view({'get': 'list'}), name='public-activity-detail'),
+    url(r'^public-activities/$', PublicActivities.as_view(), name='public-activities'),
+    url(r'^public-activities/(?P<pk>\d+)/$', PublicActivitiesDetail.as_view(), name='public-activity-detail'),
 ]
 
 urlpatterns = router.urls
