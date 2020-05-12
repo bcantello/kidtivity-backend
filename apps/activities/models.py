@@ -29,7 +29,7 @@ class Activity(models.Model):
     summary = models.CharField(max_length=200)
     supplies = models.CharField(max_length=300)
     body = models.TextField()
-    image = models.ImageField(upload_to='activity_images/', blank=True)
+    image = models.CharField(max_length=150, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     is_public = models.BooleanField(default=True)

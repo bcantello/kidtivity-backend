@@ -16,7 +16,7 @@ class ActivityViewSet(viewsets.ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         if request.user.is_anonymous:
-            raise PermissionDenied("You must be logged in to create a activity")
+            raise PermissionDenied("You must be logged in to create an activity")
         return super().create(request, *args, **kwargs)
 
     def destroy(self, request, *args, **kwargs):
