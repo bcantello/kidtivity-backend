@@ -64,7 +64,6 @@ Most of the data will be stored and accessed from a rest api that I will build. 
 | Create Account | Create new user account |
 | Activity | Displays complete post details for individual activity |
 | Header | This will render the header include the nav. Nave will include links for login and signup | 
-| Menu | Drop down menu/hamburger |
 | Footer | copyright and home nav |
 
 ### Back end
@@ -79,32 +78,35 @@ Most of the data will be stored and accessed from a rest api that I will build. 
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| App | H | 5hrs |  |  |
-| Main | H | 1hrs | 30min |  |
-| Home | H | 5hrs | 1.5hrs |  |
-| Create Account | M | 4hrs | 30min |  |
-| Login | H | 4hrs | 30min |  |
-| Activity | H | 5hrs |  |  |
-| Header | M | 1hrs |  |  |
-| Menu | M | 3hrs |  |  |
-| Footer | L | 1hr |  |  |
-| CSS | H | 8hrs |  |  |
-| Testing | H | 2hrs |  |  |
-| Deployment | H | 1hrs |  |  |
-| Total | - | 40hrs | 3hrs |  |
+| App | H | 5hrs | 3hrs | 3hrs |
+| Main | H | 1hrs | 30min | 30min |
+| Home | H | 5hrs | 1.5hrs | 5hrs |
+| Create Account | M | 4hrs | 3hrs | 3hrs |
+| Login | H | 4hrs | 1.5hrs | 1.5hrs |
+| Activity | H | 5hrs | 12hrs | 12hrs |
+| Header | M | 1hrs | 1hr | 1hr |
+| Footer | L | 1hr | 30min | 30min |
+| CSS | H | 8hrs | 5hrs | 5hrs |
+| Testing | H | 2hrs | 5hrs | 5hrs |
+| Deployment | H | 1hrs | 1hr | 1hr |
+| Total | - | 37hrs | 37.5hrs | 37.5 |
 
 ### Back end
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create Activities app | H | 2hr | 8hrs |  |
-| Create Authentication app | H | 2hr |  | 1.5hrs |
-| Testing | H | 4hrs | 2hrs |  |
-| Deployment | H | 2hrs | 6hrs |  |
-| Total | H | 10hrs | 18hrs |  |
+| Create Activities app | H | 2hr | 8hrs | 8hrs |
+| Create Authentication app | H | 2hr | 1.5hrs | 1.5hrs |
+| Testing | H | 4hrs | 5hrs | 5hrs |
+| Deployment | H | 2hrs | 6hrs | 6hrs |
+| Total | H | 10hrs | 20.5hrs | 20.5 |
+
+### Adding activities:
+
+A few more hours were spent adding activities so that there was a base group available on the site prior to users adding more.
 
 ## Additional Libraries
- Axios, Google Fonts, Bootstrap
+ Axios, Google Fonts, Bootstrap, Cloudinary
 
 ## Code Snippet
 
